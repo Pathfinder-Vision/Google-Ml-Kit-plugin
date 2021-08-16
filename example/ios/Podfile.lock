@@ -44,6 +44,7 @@ PODS:
   - google_ml_kit (0.6.0):
     - Flutter
     - GoogleMLKit/FaceDetection
+    - GoogleMLKit/LinkFirebase
   - GoogleAppMeasurement (8.4.0):
     - GoogleAppMeasurement/AdIdSupport (= 8.4.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
@@ -64,6 +65,9 @@ PODS:
   - GoogleMLKit/FaceDetection (2.2.0):
     - GoogleMLKit/MLKitCore
     - MLKitFaceDetection (~> 1.3.0)
+  - GoogleMLKit/LinkFirebase (2.2.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitLinkFirebase (~> 1.3.0)
   - GoogleMLKit/MLKitCore (2.2.0):
     - MLKitCommon (~> 3.0.0)
   - GoogleToolboxForMac/DebugUtils (2.3.1):
@@ -115,6 +119,11 @@ PODS:
   - MLKitFaceDetection (1.3.0):
     - MLKitCommon (~> 3.0)
     - MLKitVision (~> 1.3)
+  - MLKitLinkFirebase (1.3.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - MLKitCommon (~> 3.0)
   - MLKitVision (1.3.0):
     - GoogleToolboxForMac/Logger (~> 2.1)
     - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
@@ -154,6 +163,7 @@ SPEC REPOS:
     - MLImage
     - MLKitCommon
     - MLKitFaceDetection
+    - MLKitLinkFirebase
     - MLKitVision
     - nanopb
     - PromisesObjC
@@ -177,7 +187,7 @@ SPEC CHECKSUMS:
   FirebaseCoreDiagnostics: cad03be1904b975f845e632f2720c3337da27faf
   FirebaseInstallations: 1585729afc787877763208c2088ed84221161f77
   Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
-  google_ml_kit: d3dd959180b0a2ed03144307fdb959e8c474b5ea
+  google_ml_kit: 12c0b657870e9ef1b3d88cf910c36b06eb5d9741
   GoogleAppMeasurement: 6b6a08fd9c71f4dbc89e0e812acca81d797aa342
   GoogleDataTransport: 85fd18ff3019bb85d3f2c551d04c481dedf71fc9
   GoogleMLKit: 85ffdc9641d05311c76dbba5bbf93059087be12f
@@ -189,6 +199,7 @@ SPEC CHECKSUMS:
   MLImage: 647f3d580c10b3c9a3f6154f5d7baead60c42a0c
   MLKitCommon: 6d6be0a2e9a6340aad1c1f2b9449c11dee8af70f
   MLKitFaceDetection: 897f007aa4eb426ef1bac7c66e5451d02ffc2e83
+  MLKitLinkFirebase: ae5bd6996d0a1a3d3e0bb4c634b594101c07d094
   MLKitVision: 26da299aef93291f24f5200e8372919f73abf3b5
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
